@@ -1,0 +1,448 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: darkgrey;
+  font-family: 'Oxygen', sans-serif;
+  height:?;
+  /*background-image: url("http://pic.gaoloumi.com/attachments/forum/201703/11/103940fb8egzq8zgf6jff6.jpg");
+  background-repeat: no-repeat;
+  background-position:center center;*/
+}
+
+/** HEADER **/
+* {box-sizing: border-box;}
+
+#header-nav {
+	background-color: #00897b;
+	border-radius:0;
+	border:0;
+  padding: 0;
+}
+
+#logo-img {
+	background:  url(../images/swimkind.png) no-repeat 50%;
+  background-size: 180px 90px;
+	width: 180px;
+  height: 90px;
+	margin-right: 5px	
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+.navbar-brand p {
+      font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+	vertical-align: middle;      
+      margin: 3px 3px 0px 0px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+#nav-list { 
+  margin-top:10px;
+  float: center;
+}
+
+#shenshui {
+  margin-top: 13px
+ }
+
+ #nav-list a {
+    text-align: center;
+      color: white;
+ }
+ 
+
+ #nav-list a:hover {
+  background: lightblue;
+ }
+
+ #nav-list span  { 
+  margin-top:px;
+  font-size: 1.8rem; 
+ }
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid silver;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: right;
+  /*position:relative;*/
+  margin-bottom:0px;
+}
+ .glyphicon img {
+  margin-right: 5px;
+ }
+
+ #shenshui span a:hover{
+  background: lightblue
+}
+
+#shenshui span a:focus{
+  color: gold;
+  text-decoration:none;
+}
+
+/*end of the hearder*/
+
+#p-call-btn div{
+  text-align: center;
+}
+#call-btn {
+  position: relative;
+  margin-right:auto;
+  margin-left:auto;
+  background-color:#00897b;
+  width: 90%;
+  text-align: center;
+  color:darkred;
+  border-radius:5px;
+}
+
+#call-btn .btn {
+  color:silver;
+  font-size:2rem;}
+/*end of the call-btn*/
+
+/*main-content*/
+#main-content .jumbotron{
+  box-shadow: 0 0 30px #3f0c1f;
+  border:2px solid silver;
+}
+
+#yyt-tile, #hyt-tile, #ssmap-tile{
+  height: 250px; 
+  width:100%;
+  margin-bottom: 15px;
+  position: relative;
+  box-shadow: 0 0 20px #3f0c1f;
+  border:2px solid silver;
+  /*border:2px solid #fff;*/
+  overflow: hidden;
+}
+
+#yyt-tile:hover, #hyt-tile:hover, #ssmap-tile:hover {
+  box-shadow: 0 1px 5px 1px #00897b;
+}
+
+#yyt-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#hyt-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#yyt-tile span, #hyt-tile span, #ssmap-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  background-color:#00897b;
+  color: #fff;
+  opacity:.8;
+}
+/* end main-content of home page */
+
+/* footer*/
+ #footer-nav {
+  padding: 10px 15px;
+  background-color: #000;
+  border-top: 1px solid #ddd;}
+
+#footer-nav section{
+  float:left;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+#footer-nav section span{
+font-size: 1.2em;
+}
+
+#Hours p, #Address p{
+  color:#00897b;
+  font-size:.8em;
+}
+
+#testimonials p{
+  font-style: italic;
+  font-size: 0.9em;
+}
+#footer-nav hr{
+  width: 80%;
+  text-align: center;
+}
+#copyright {
+  clear:left;
+  font-size: 0.8em;
+}
+/*end of index.html*/
+
+/*start of menu-categories.html*/
+.category-tile {
+  position:relative;
+  border: 2px solid #fff;
+  overflow:hidden;
+  width:300px;
+  height:200px;
+  background-position:center;
+  margin: 0 auto 25px;
+}
+.category-tile span{
+  position: absolute;
+  text-align: center;
+  bottom:0;
+  right:0px;
+  width:100%;
+  font-size: 1.2em;
+  background:#00897b;
+  color: #fff;
+  opacity:.8;
+}
+.category-tile:hover{
+  box-shadow:0 1px 5px 1px #00897b;
+}
+#menu-categories-title{color:blue;}
+#menu-categories-title+div{
+  margin-bottom: 30px;
+  color: blue;
+}
+
+/*end of menu categories page*/
+
+/*start of single-category.html*/
+.menu-item-tile {margin-bottom: 25px;}
+.menu-item-tile hr{width:80%;}
+.menu-item-tile .menu-item-price{
+  font-size: 1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+  color:blue;
+} 
+.menu-item-tile .menu-item-price span{
+  font-size:.6em;
+}
+
+.menu-item-photo {
+  position: relative;
+  border: 2px solid white;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left:auto;
+  margin-bottom: 20px;
+  max-width: 180px;
+}
+
+.menu-item-photo div {
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  opacity:.6;
+  text-align:center;
+}
+
+.menu-item-description {
+  padding-right: 25px;
+}
+
+h3.menu-item-title{
+  margin:0 0 10px;
+}
+
+.menu-item-details{
+  font-size:.9em;
+  font-style:italic;
+}
+/*end of single-category.html*/
+
+/***Large devices only***/
+@media (min-width: 1200px) {
+ .navbar-brand h1{
+  font-size: 3rem;
+ }
+ .navbar-brand p{
+  font-size: 2rem;
+ }
+
+#main-content .jumbotron {
+  background:url('../images/jumbotron_1200.jpg') no-repeat;
+  height:675px;
+}
+}
+
+/***Medium devices only***/
+@media (min-width: 992px) and (max-width:1199px) {
+ /* header */
+ #logo-img {
+  background:  url(../images/swimkind.png) no-repeat 50%;
+  background-size:150px 75px;
+  width: 150px;
+  height: 75px;
+  margin: 5px 5px 5px 0;}
+/* end header */
+
+/* home page */
+#main-content .jumbotron {
+  background:url('../images/jumbotron_992.jpg') no-repeat;
+  height:558px;
+}
+
+#nav-list { 
+  margin-top:8px;
+  float: center;
+}
+#shenshui {
+  margin-top: 11px
+ }
+.navbar-brand h1{
+  font-size: 2.5rem;
+ }
+ .navbar-brand p{
+  font-size: 1.5rem;
+ }
+}
+
+
+/***Small devices only***/
+@media (min-width: 768px) and (max-width:991px) {
+ #nav-list{
+  margin-bottom: -8px;
+  margin-top: 0px;
+}  
+.navbar-brand h1 {
+  font-size: 2rem;
+}
+.navbar-brand p{
+  font-size: 1.2rem;
+ }
+#main-content .jumbotron {
+  background:url('../images/jumbotron_768.jpg') no-repeat;
+  height:432px;  /*shift+option+/=select and disable本行*/
+  background-position: center;
+}
+}
+
+/***Extra small devices only***/
+@media (max-width: 767px ) {
+  /*header*/
+  .navbar-header { 
+    padding-top:0px; 
+    height: 86px;
+  }
+
+.navbar-header button.navbar-toggle {
+  bottom:-18px;
+}
+ /*slogan chinese*/
+ .navbar-brand h1 {
+    padding-top: 0px;
+    font-size: 4.5vw;
+  }
+
+  /*slogan english*/
+  .navbar-brand p {
+  font-size: 2.5vw;
+  margin-top: 5px;
+  }
+
+  .navbar-brand p img {
+    height: 20px;
+  } 
+
+#main-content .jumbotron{
+  margin-top: 10px;
+  padding: 0px; 
+}
+
+ #yyt-tile, #hyt-tile {
+  width:360px;
+  margin: 0 auto 15px;
+}
+
+#footer-nav section{
+    text-align: center;
+    float: none;
+  }
+/*start of single-category.html*/
+.menu-item-photo {
+  margin-right: auto;
+}
+
+.menu-item-tile .menu-item-price{
+  text-align: center;
+}
+
+.menu-item-description{
+  text-align:center;
+}
+/*end of single-category.html*/
+
+}
+
+@media (max-width: 480px) {
+  /*header*/
+  .navbar-header { 
+    padding-top:0px; 
+    height: 60px;
+    padding-bottom:0px;
+  }
+.navbar-header button.navbar-toggle {
+  bottom:-10px;
+}
+ /*slogan chinese*/
+ .navbar-brand h1 {
+    padding-top: 0px;
+    font-size: 4.5vw;
+  }
+
+  /*slogan english*/
+  .navbar-brand p {
+  font-size: 2.5vw;
+  margin-top: 0px;
+  }
+
+  .navbar-brand p img {
+    height: 20px;
+  } 
+
+  #yyt-tile, #hyt-tile, #ssmap {
+  width:290px;
+  margin: 0 auto 15px;
+}
+/*start of single-category.html*/
+/*.menu-item-photo {
+  margin-right: auto;
+}
+
+.menu-item-tile .menu-item-price{
+  text-align: center;
+}
+
+.menu-item-description{
+  text-align:center;
+}*/
+/*end of single-category.html*/
+}
